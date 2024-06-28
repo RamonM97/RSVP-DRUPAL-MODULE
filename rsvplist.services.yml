@@ -1,0 +1,4 @@
+services:
+  rsvplist.enabler:
+    class: Drupal\rsvplist\EnablerService
+    arguments: ['@database'] #%database is defined in services.yml #our @database is in core.services.yml
